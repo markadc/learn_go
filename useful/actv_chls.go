@@ -61,7 +61,6 @@ func crack(text string) string {
 		outBuff.WriteByte(byte(dd >> 16))
 		outBuff.WriteByte(byte(dd >> 8))
 		outBuff.WriteByte(byte(dd))
-
 	}
 	var n int32
 	for _, b := range outBuff.Bytes() {
