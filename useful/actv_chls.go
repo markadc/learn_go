@@ -14,6 +14,7 @@ const (
 	roundKeys = 2 * (rounds + 1)
 )
 
+// 激活Charles
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
