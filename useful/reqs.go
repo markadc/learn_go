@@ -31,7 +31,6 @@ func Send(url string, headers map[string]string, timeout time.Duration) (*http.R
 }
 
 func main() {
-
 	ua := "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
 	headers := map[string]string{"User-Agent": ua}
 	timeout := 3 * time.Second
