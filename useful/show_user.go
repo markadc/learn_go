@@ -5,6 +5,7 @@ import (
 	"os/user"
 )
 
+// 输出当前电脑的用户信息
 func main() {
 	u, err := user.Current()
 	if err != nil {
